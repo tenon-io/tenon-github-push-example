@@ -1,0 +1,31 @@
+{
+  "name": "tenon-github-push-example",
+  "version": "0.0.1",
+  "title": "tenon-github-push-example",
+  "description": "Example code for using Tenon.io and pushing to Github issues",
+  "keywords": "accessibility, api, tenon, github, node",
+  "contributors": [
+    {
+      "name": "Karl Groves",
+      "email": "karl@tenon.io",
+      "url": "http://www.tenon.io"
+    }
+  ],
+  "dependencies": {
+    "github": "^0.2.4",
+    "unirest": "^0.4.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:karlgroves/tenon-github-push-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/karlgroves/tenon-github-push-example/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}

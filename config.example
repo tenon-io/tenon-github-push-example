@@ -1,0 +1,20 @@
+{
+  "tenon": {
+    "tenonInstanceDomain": "https://tenon.io",
+    "apiKey": "YOUR API KEY",
+    "projectID": "YOUR PROJECT ID",
+  },
+  "github": {
+    "version": "3.0.0",
+    "debug": true,
+    "protocol": "https",
+    "host": "api.github.com",
+    "pathPrefix": "",
+    "timeout": 5000,
+    "token": "YOUR TOKEN",
+    "user": "YOUR GITHUB USERNAME",
+    "repo": "YOUR REPO NAME",
+    "issueSummaryPre": "Accessibility issues found at",
+    "issueDescriptionPre": "Tenon found accessibility issues:"
+  }
+}
