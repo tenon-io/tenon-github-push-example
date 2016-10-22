@@ -19,20 +19,21 @@ var Request = unirest.post(config.tenon.tenonInstanceDomain + '/api/index.php')
     });
 
     github.authenticate({
-      type: "oauth",
-      token: config.github.token
+      type: "basic",
+      username: 'karlgroves',
+      password: 'I4m1r0nm4n'
     });
 
-    console.log('Status:');
+    console.log('Tenon Status:');
     console.log(response.body.status);
 
-    console.log('Response ID:');
+    console.log('Tenon Response ID:');
     console.log(response.body.request.responseID);
 
     console.log('Total Issues: ');
     console.log(response.body.resultSummary.issues.totalIssues);
 
-    console.log('Result URL:');
+    console.log('Tenon Result URL:');
     console.log(config.tenon.tenonInstanceDomain + '/history.php?responseID=' + response.body.request.responseID);
 
     if (response.body.status === 200) {

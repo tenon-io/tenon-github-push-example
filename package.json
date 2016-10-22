@@ -12,7 +12,7 @@
     }
   ],
   "dependencies": {
-    "github": "^0.2.4",
+    "github": "^3.1.0",
     "unirest": "^0.4.2"
   },
   "devDependencies": {},
