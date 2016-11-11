@@ -13,6 +13,7 @@
     "timeout": 5000,
     "token": "YOUR TOKEN",
     "user": "YOUR GITHUB USERNAME",
+    "pass": "YOUR GITHUB PASSWORD",
     "repo": "YOUR REPO NAME",
     "issueSummaryPre": "Accessibility issues found at",
     "issueDescriptionPre": "Tenon found accessibility issues:"
