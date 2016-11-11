@@ -20,8 +20,8 @@ var Request = unirest.post(config.tenon.tenonInstanceDomain + '/api/index.php')
 
     github.authenticate({
       type: "basic",
-      username: 'karlgroves',
-      password: 'I4m1r0nm4n'
+      username: config.github.user,
+      password: config.github.pass
     });
 
     console.log('Tenon Status:');
