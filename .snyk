@@ -1,0 +1,13 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.10.1
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:mime:20170907':
+    - unirest > mime:
+        reason: None given
+        expires: '2018-02-16T14:35:36.690Z'
+  'npm:tunnel-agent:20170305':
+    - unirest > request > tunnel-agent:
+        reason: None given
+        expires: '2018-02-16T14:35:36.690Z'
+patch: {}
